@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+}
+
+
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+   
+   font-weight: 700;
+}
+
+h2, span, a, label, nav{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, ul{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.hero-wrapper > h1{
+  font-size: 11rem;
+  line-height: 0.9;
+  letter-spacing: -1.6px;
+}
+
+.hero-wrapper2 > h2{
+  color: #1a1818;
+}
+
+
+ion-icon{
+    font-size: 1.6rem;
+}
+
+.landingButton {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+
+  
+  overflow: hidden;
+  background: #DCD7C9;
+  color: #DCD7C9;
+  transform: scale(1); /* Initial scale value */
+  transition: transform 0.4s ease ; /* Add a smooth transition */
+  
+ }
+ 
+ .landingButton .landingButtonText {
+  position: relative;
+  z-index: 10;
+  transition: color 0.6s;
+ }
+
+ .landingButton:hover {
+  outline: 2px solid #2c3639; /* Add an outline on hover */
+  transform: scale(1.05, 1); /* Scale the button to 110% on hover */
+}
+ 
+ .landingButton:hover .landingButtonText {
+  color: #2c3639;
+  
+ }
+ 
+ .landingButton::before,
+ .landingButton::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  
+ }
+ 
+ .landingButton::before {
+  content: "";
+  background: #1a1818;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.5s cubic-bezier(0.3, 1, 0.8, 1);
+  
+ }
+ 
+ .landingButton:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
+
+ .profileImage{
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+ }
+
+ .projectButton{
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - .6em), calc(100% - .6em) 100%, 0% 100%);
+  transform: scale(1); /* Initial scale value */
+  transition: transform 0.4s ease ; /* Add a smooth transition */
+ }
+
+ .projectButton:hover{
+  transform: scale(1.05); /* Scale the button to 110% on hover */
+ }
+
+ .buttonIcon{
+  transform: translate(0);
+  transition: transform 0.4s ease
+ }
+
+ .projectButton:hover .buttonIcon{
+  transform: translate(.3rem);
+ }
+
+ @keyframes animate {
+  0%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+
+  50%{
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+  }
+
+  100%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+  }
+ }
+
+
+ 
+ 
+ 
+ @media (min-width: 768px) { 
+  .hero-wrapper > h1{
+    font-size: 18rem;
+    line-height: 0.9;
+    letter-spacing: -1.6px;
+  }
+
+ }
+
+
+ @media (min-width: 1024px) { 
+  .hero-wrapper > h1{
+    font-size: 24rem;
+    line-height: 0.9;
+    letter-spacing: -1.6px;
+  }
+
+  }
+
