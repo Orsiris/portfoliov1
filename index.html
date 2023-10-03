@@ -6,7 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daniel Wong</title>
-  <link href="./dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="./style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 
 <body class="bg-[#DCD7C9]">
 
-  
+
 
   <section
     class="h-[100dvh] flex flex-col justify-center items-center overflow-hidden lg:pt-10 lg:flex-row lg:justify-around sticky top-0 ">
@@ -40,180 +40,194 @@
   </section>
 
 
-<div class="bg-[#1a1818] sticky top-0">
-  <section class=" p-5 lg:p-10">
+  <div class="bg-[#1a1818] sticky top-0">
+    <section class=" p-5 lg:p-10">
 
-    <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 mt-32">
-      <div class="flex justify-center items-center">
+      <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 mt-32">
+        <div class="flex justify-center items-center">
 
-        <img src="/imgs/profile.jpg" class="w-full md:w-8/12 lg:w-9/12 h-auto profileImage">
-      </div>
+          <img src="/imgs/profile.jpg" class="w-full md:w-8/12 lg:w-9/12 h-auto profileImage">
+        </div>
 
-      <div class="flex flex-col lg:justify-center lg:items-start  text-[#DCD7C9] mt-14 lg:mt-0 lg:w-11/12 ">
+        <div class="flex flex-col lg:justify-center lg:items-start  text-[#DCD7C9] mt-14 lg:mt-0 lg:w-11/12 ">
 
-        <h2 class="text-5xl font-semibold text-center lg:text-start">Hi There! 👋</h2>
-        <p class="leading-relaxed mt-5 opacity-90 md:px-6 lg:px-0">I'm Daniel, currently a 2nd year student at Singapore
-          Polytechnic pursuing a diploma in Information Technology. So far i've learned about Front-End and Back-End Web
-          Development, Secure Coding, AWS, Mobile Application Development and UI/UX.</p>
-
-
-      </div>
-    </div>
+          <h2 class="text-5xl font-semibold text-center lg:text-start">Hi There! 👋</h2>
+          <p class="leading-relaxed mt-5 opacity-90 md:px-6 lg:px-0">I'm Daniel, currently a 2nd year student at
+            Singapore
+            Polytechnic pursuing a diploma in Information Technology. So far i've learned about Front-End and Back-End
+            Web
+            Development, Secure Coding, AWS, Mobile Application Development and UI/UX.</p>
 
 
-
-    
-
-  </section>
-
-
-  <section class=" p-5 lg:p-10" >
-
-    <h1 class="text-center text-8xl mt-20 lg:mt-32 text-[#DCD7C9]" id ="works">My Works</h1>
-
-    <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 lg:mt-14 " >
-
-      <div
-        class="flex flex-col items-center lg:justify-center lg:items-start mt-10 lg:mt-0 lg:ps-40 text-[#DCD7C9] gap-6 order-last lg:order-first">
-        <h2 class="text-6xl ">To-Do List</h2>
-        <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a school assignment and it was created in
-          react-native. It has the usual features of a to-do list where you can keep track of tasks that need to be
-          completed and a calendar which indicates days that have tasks.</p>
-        <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
-          target="_blank">
-          <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
-            View on Github
-            <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
-          </span>
-        </a>
+        </div>
       </div>
 
 
-      <div class="flex justify-center items-center mt-12 lg:mt-0">
-
-        <img src="/imgs/todo.png" class="w-60 lg:w-72 h-auto">
-
-      </div>
-
-    </div>
-
-    <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 lg:mt-14">
-
-      <div
-        class="flex flex-col items-center lg:justify-center lg:items-start lg:px-20 text-[#DCD7C9] gap-6 order-last lg:order-last">
-        <h2 class="text-6xl text-center lg:text-start">Lunar Library</h2>
-        <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a school assignment which required us to build a
-          bookstore website using MVC. The view was the JSPs, the controllers were servlets, and the models were java
-          classes. The database was made with MySQL and relevant web services were also created for third-party
-          websites.</p>
-        <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
-          target="_blank">
-          <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
-            View on Github
-            <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
-          </span>
-        </a>
-      </div>
 
 
-      <div class="flex justify-end items-end mt-20 -mb-7 lg:mt-0 lg:-mb-0">
 
-        <img src="/imgs/library.png" class="w-full h-auto">
-
-      </div>
-
-    </div>
-
-    <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 ">
-
-      <div
-        class="flex flex-col items-center  lg:text-start lg:justify-center lg:items-start mt-10 lg:mt-0 lg:ps-40 text-[#DCD7C9] gap-6 order-last lg:order-first">
-        <h2 class="text-6xl text-center lg:text-start">Weather Forecast App</h2>
-        <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a project I did in my spare time so I could learn
-          how to integrate third party APIs to extract the relevant data and render it dynamically to display the
-          weather forecast. I also took it as an opportunity to use ReactJS.</p>
-        <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
-          target="_blank">
-          <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
-            View on Github
-            <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
-          </span>
-        </a>
-      </div>
+    </section>
 
 
-      <div class="flex justify-end items-end mt-20 -mb-7 lg:mt-0 lg:-mb-0">
+    <section class=" p-5 lg:p-10">
 
-        <img src="/imgs/weather.png" class="w-full h-auto">
+      <h1 class="text-center text-8xl mt-20 lg:mt-32 text-[#DCD7C9]" id="works">My Works</h1>
 
-      </div>
+      <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 lg:mt-14 ">
 
-    </div>
+        <div
+          class="flex flex-col items-center lg:justify-center lg:items-start mt-10 lg:mt-0 lg:ps-40 text-[#DCD7C9] gap-6 order-last lg:order-first">
+          <h2 class="text-6xl ">To-Do List</h2>
+          <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a school assignment and it was created in
+            react-native. It has the usual features of a to-do list where you can keep track of tasks that need to be
+            completed and a calendar which indicates days that have tasks.</p>
+          <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
+            target="_blank">
+            <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
+              View on Github
+              <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
+            </span>
+          </a>
+        </div>
 
-  </section>
 
-  <section class="p-5 lg:p-10">
+        <div class="flex justify-center items-center mt-12 lg:mt-0">
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 lg:ps-40 lg:pe-10 lg:gap-10 pt-10 pb-20 lg:pb-40">
+          <img src="/imgs/todo.png" class="w-60 lg:w-72 h-auto">
 
-      <div class="flex justify-center flex-col text-[#DCD7C9] mt-12 px-5 lg:px-0">
-
-        <h1 class=" text-9xl leading-none tracking-wide text-[#DCD7C9] text-center lg:text-start">Get In Touch</h1>
-        <p class="leading-snug opacity-90 lg:w-11/12 text-center lg:text-start mt-5 lg:mt-0">Whether you have a question, a project in mind, or just want to say hi i'll
-          try my best to get back to you.</p>
-
-        <div class="flex flex-row mt-6 lg:mt-5 gap-4 lg:gap-2 justify-center lg:justify-start">
-          <a href = "mailto:DanielWong011@outlook.com"><ion-icon name="mail"  class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
-          <a href = "https://github.com/Orsiris"><ion-icon name="logo-github" class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
-          <a href = "https://www.linkedin.com/in/daniel-wong-591425171/"><ion-icon name="logo-linkedin" class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
         </div>
 
       </div>
 
-      <div class="flex flex-col gap-4  lg:pe-20 mt-10 lg:mt-0">
+      <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 lg:mt-14">
 
-        <div class="w-full flex flex-col gap-4">
-          <form id ="contact-form">
-
-            <div>
-              <label for="from_email" class="block text-[#DCD7C9]">EMAIL</label>
-              <input type="email" required id="from_email" name="from_email" class="w-full h-10 mt-1 px-3 py-5 bg-[#332F2F] outline outline-1 outline-slate-50/40 shadow-lg transition-shadow ease-in-out duration-300 focus:shadow-[#00c9c668]">
-
-              <label for="message" class="block text-[#DCD7C9] mt-5">MESSAGE</label>
-              <textarea  id="message" required name="message" class="w-full  mt-1 p-3 bg-[#332F2F] outline outline-1 outline-slate-50/40 shadow-lg transition-shadow ease-in-out duration-300 focus:shadow-[#00c9c668]" rows="4"></textarea>
-            </div>
-            
-        
-          
-          <button class="bg-[#00C9C4] px-2 py-4 w-48 mt-5 projectButton shadow-lg" type="submit">
-          <span class="flex items-center justify-center gap-3 text-[#1a1818] font-semibold">
-            Send Message
-            <ion-icon name="send" class="buttonIcon text-xl"></ion-icon>
-          </span>
-        </button>
-      </form>
+        <div
+          class="flex flex-col items-center lg:justify-center lg:items-start lg:px-20 text-[#DCD7C9] gap-6 order-last lg:order-last">
+          <h2 class="text-6xl text-center lg:text-start">Lunar Library</h2>
+          <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a school assignment which required us to build
+            a
+            bookstore website using MVC. The view was the JSPs, the controllers were servlets, and the models were java
+            classes. The database was made with MySQL and relevant web services were also created for third-party
+            websites.</p>
+          <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
+            target="_blank">
+            <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
+              View on Github
+              <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
+            </span>
+          </a>
         </div>
-        
+
+
+        <div class="flex justify-end items-end mt-20 -mb-7 lg:mt-0 lg:-mb-0">
+
+          <img src="/imgs/library.png" class="w-full h-auto">
+
+        </div>
 
       </div>
 
+      <div class="grid grid-cols-1  lg:grid-cols-2 lg:grid-rows-1 ">
 
-    </div>
-    <a href = "https://github.com/Orsiris/portfoliov1" target="_blank"><h2 class="text-center text-[#DCD7C9] text-lg transition-colors ease-in hover:text-[#00C9C4] duration-200 ">Built and Designed by Daniel Wong</h2></a>
-  </section>
+        <div
+          class="flex flex-col items-center  lg:text-start lg:justify-center lg:items-start mt-10 lg:mt-0 lg:ps-40 text-[#DCD7C9] gap-6 order-last lg:order-first">
+          <h2 class="text-6xl text-center lg:text-start">Weather Forecast App</h2>
+          <p class="opacity-90 leading-relaxed md:px-6 lg:px-0">This was a project I did in my spare time so I could
+            learn
+            how to integrate third party APIs to extract the relevant data and render it dynamically to display the
+            weather forecast. I also took it as an opportunity to use ReactJS.</p>
+          <a class="bg-[#00C9C4] px-2 py-4 w-48  projectButton" href="https://github.com/Orsiris/MAD-CA3-TODOLIST"
+            target="_blank">
+            <span class="flex items-center justify-center gap-2 text-[#1a1818] font-semibold">
+              View on Github
+              <ion-icon name="arrow-forward-outline" class="buttonIcon"></ion-icon>
+            </span>
+          </a>
+        </div>
 
-    </div>
+
+        <div class="flex justify-end items-end mt-20 -mb-7 lg:mt-0 lg:-mb-0">
+
+          <img src="/imgs/weather.png" class="w-full h-auto">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="p-5 lg:p-10">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:ps-40 lg:pe-10 lg:gap-10 pt-10 pb-20 lg:pb-40">
+
+        <div class="flex justify-center flex-col text-[#DCD7C9] mt-12 px-5 lg:px-0">
+
+          <h1 class=" text-9xl leading-none tracking-wide text-[#DCD7C9] text-center lg:text-start">Get In Touch</h1>
+          <p class="leading-snug opacity-90 lg:w-11/12 text-center lg:text-start mt-5 lg:mt-0">Whether you have a
+            question, a project in mind, or just want to say hi i'll
+            try my best to get back to you.</p>
+
+          <div class="flex flex-row mt-6 lg:mt-5 gap-4 lg:gap-2 justify-center lg:justify-start">
+            <a href="mailto:DanielWong011@outlook.com"><ion-icon name="mail"
+                class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
+            <a href="https://github.com/Orsiris"><ion-icon name="logo-github"
+                class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/daniel-wong-591425171/"><ion-icon name="logo-linkedin"
+                class="text-4xl opacity-70 transition-all ease-in-out duration-300 hover:opacity-100 hover:scale-110"></ion-icon></a>
+          </div>
+
+        </div>
+
+        <div class="flex flex-col gap-4  lg:pe-20 mt-10 lg:mt-0">
+
+          <div class="w-full flex flex-col gap-4">
+            <form id="contact-form">
+
+              <div>
+                <label for="from_email" class="block text-[#DCD7C9]">EMAIL</label>
+                <input type="email" required id="from_email" name="from_email"
+                  class="w-full h-10 mt-1 px-3 py-5 bg-[#332F2F] outline outline-1 outline-slate-50/40 shadow-lg transition-shadow ease-in-out duration-300 focus:shadow-[#00c9c668]">
+
+                <label for="message" class="block text-[#DCD7C9] mt-5">MESSAGE</label>
+                <textarea id="message" required name="message"
+                  class="w-full  mt-1 p-3 bg-[#332F2F] outline outline-1 outline-slate-50/40 shadow-lg transition-shadow ease-in-out duration-300 focus:shadow-[#00c9c668]"
+                  rows="4"></textarea>
+              </div>
 
 
- 
-</div>
+
+              <button class="bg-[#00C9C4] px-2 py-4 w-48 mt-5 projectButton shadow-lg" type="submit">
+                <span class="flex items-center justify-center gap-3 text-[#1a1818] font-semibold">
+                  Send Message
+                  <ion-icon name="send" class="buttonIcon text-xl"></ion-icon>
+                </span>
+              </button>
+            </form>
+          </div>
+
+
+        </div>
+
+
+      </div>
+      <a href="https://github.com/Orsiris/portfoliov1" target="_blank">
+        <h2 class="text-center text-[#DCD7C9] text-lg transition-colors ease-in hover:text-[#00C9C4] duration-200 ">
+          Built and Designed by Daniel Wong</h2>
+      </a>
+    </section>
+
+  </div>
+
+
+
+  </div>
 
 
   <script type="module" src="./main.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
-  
-  
+
+
 </body>
 
 </html>
